@@ -2,6 +2,23 @@
 
 A Flutter application that provides prayer times and a digital Tasbeeh counter for Muslims during Ramadan and throughout the year.
 
+## Screenshots
+
+<img width="150" height="450" alt="Screenshot_20250813_155025" src="https://github.com/user-attachments/assets/dda2c3fc-5cca-4706-8ca8-3ca83de4a61d" />
+<img width="150" height="450" alt="Screenshot_20250813_155033" src="https://github.com/user-attachments/assets/97a8836c-40b8-421f-8a02-3f0ec75fb465" />
+<img width="150" height="450" alt="Screenshot_20250813_154822" src="https://github.com/user-attachments/assets/447bbd5c-9b05-45a3-8026-504f2911ef69" />
+<img width="150" height="450" alt="Screenshot_20250813_155005" src="https://github.com/user-attachments/assets/02052d99-0888-4721-a751-a0353f78ea8b" />
+<img width="150" height="450" alt="Screenshot_20250813_155207" src="https://github.com/user-attachments/assets/13acc5a9-18cd-40f0-9e0d-83e669f695b0" />
+
+## Test Account
+
+For testing purposes, you can use the following pre-created account:
+
+```
+Email: test@ramadan.com
+Password: test123456
+```
+
 ## Features
 
 ### 1. **Firebase Authentication**
@@ -26,17 +43,6 @@ A Flutter application that provides prayer times and a digital Tasbeeh counter f
 - Data persistence using SharedPreferences
 - Completion notifications with vibration feedback
 - Reset functionality
-
-## Test Account
-
-For testing purposes, you can use the following pre-created account:
-
-```
-Email: test@ramadan.com
-Password: test123456
-```
-
-**Note:** You'll need to create this account in your Firebase project first, or create your own test account.
 
 ## Setup Instructions
 
