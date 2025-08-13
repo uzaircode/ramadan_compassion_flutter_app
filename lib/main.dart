@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'firebase_options.dart';
 import 'providers/auth_provider.dart';
 import 'providers/prayer_times_provider.dart';
+import 'providers/tasbeeh_provider.dart';
 import 'screens/wrapper.dart';
 import 'utils/constants.dart';
 
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => AuthProvider()),
-        ChangeNotifierProvider(create: (_) => PrayerTimesProvider())
+        ChangeNotifierProvider(create: (_) => PrayerTimesProvider()),
+        ChangeNotifierProvider(create: (_) => TasbeehProvider())
       ],
       child: MaterialApp(
         title: AppStrings.appName,

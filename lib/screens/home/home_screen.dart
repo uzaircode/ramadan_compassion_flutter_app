@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import '../../providers/auth_provider.dart';
 import '../../utils/constants.dart';
 import 'prayer_times_screen.dart';
+import 'tasbeeh_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -16,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final List<Widget> _screens = [
     PrayerTimesScreen(),
+    TasbeehScreen(),
   ];
 
   @override
